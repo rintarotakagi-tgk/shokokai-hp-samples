@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>松崎町商工会 | 松崎町のビジネスをサポート</title>
+  <meta name="description" content="松崎町商工会の公式ホームページです。松崎町で事業をされている方の経営相談・融資・税務支援・共済制度のご案内。">
+  <link rel="stylesheet" href="shared/base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      松崎町商工会
+    </div>
+    <button class="hamburger" onclick="toggleNav()" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#news" onclick="closeNav()">News</a></li>
+        <li><a href="#services" onclick="closeNav()">Services</a></li>
+        <li><a href="#about" onclick="closeNav()">About</a></li>
+        <li><a href="#join" onclick="closeNav()">Join</a></li>
+        <li><a href="#contact" onclick="closeNav()" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('shared/images/hero_c.png')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-label">松崎町商工会</p>
+    <h1 class="hero-title">地域とビジネスの<br>未来をつくる</h1>
+    <p class="hero-sub">経営相談・融資・税務・共済——あなたの事業に伴走します</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-hero-primary">お問い合わせ</a>
+      <a href="#services" class="btn btn-hero-outline">サービスを見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">—</span>
+        <span class="stat-label">会員事業者数</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">—</span>
+        <span class="stat-label">設立</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">無料</span>
+        <span class="stat-label">経営相談</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">News</h2>
+      <p class="section-sub">最新のお知らせ</p>
+    </div>
+    <div class="news-list">
+      <a href="#" class="news-item">
+        <span class="news-date">2026.03.01</span>
+        <span class="news-tag tag-info">Info</span>
+        <span class="news-title-text">令和8年度 小規模事業者持続化補助金のご案内</span>
+      </a>
+      <a href="#" class="news-item">
+        <span class="news-date">2026.02.15</span>
+        <span class="news-tag tag-event">Event</span>
+        <span class="news-title-text">確定申告無料相談会を開催します</span>
+      </a>
+      <a href="#" class="news-item">
+        <span class="news-date">2026.02.01</span>
+        <span class="news-tag tag-subsidy">Subsidy</span>
+        <span class="news-title-text">マル経融資（小規模事業者経営改善資金）のご案内</span>
+      </a>
+      <a href="#" class="news-item">
+        <span class="news-date">2026.01.20</span>
+        <span class="news-tag tag-event">Event</span>
+        <span class="news-title-text">創業セミナー参加者募集のお知らせ</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section section-bg" id="services">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Services</h2>
+      <p class="section-sub">サポート内容</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <h3>経営相談</h3>
+        <p>事業計画・売上改善・販路開拓など、経営全般の相談に専門の経営指導員が対応します。</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <h3>金融支援</h3>
+        <p>マル経融資（無担保・無保証・低利）をはじめ、事業に必要な資金調達をサポートします。</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <h3>税務・経理</h3>
+        <p>記帳指導、確定申告支援、インボイス対応まで。帳簿に不安がある方もお気軽に。</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <h3>労務・人材</h3>
+        <p>就業規則、社会保険手続き、採用相談など。働く環境づくりをお手伝いします。</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <h3>共済・保険</h3>
+        <p>全国商工会福祉共済、休業補償、業務災害保険。リーズナブルな掛金で充実保障。</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <h3>創業支援</h3>
+        <p>ビジネスプランの策定、資金計画、各種届出手続きまで。創業をトータルで支えます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">商工会について</p>
+    </div>
+    <div class="about-grid">
+      <div>
+        <table class="about-table">
+          <tr><th>名称</th><td>松崎町商工会</td></tr>
+          <tr><th>所在地</th><td></td></tr>
+          <tr><th>電話番号</th><td></td></tr>
+          <tr><th>FAX</th><td></td></tr>
+          <tr><th>受付時間</th><td>平日 8:30〜17:15</td></tr>
+          <tr><th>管轄地域</th><td>松崎町</td></tr>
+        </table>
+      </div>
+      <div class="map-wrapper">
+        <iframe src="https://maps.google.com/maps?q=&output=embed" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== JOIN ===== -->
+<section class="section section-bg" id="join">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Join</h2>
+      <p class="section-sub">入会のご案内</p>
+    </div>
+    <div class="join-content">
+      <div class="join-reasons">
+        <div class="join-reason">
+          <span class="join-icon">→</span>
+          <div>
+            <h4>経営の無料相談</h4>
+            <p>回数無制限。専門の経営指導員に何度でも相談できます</p>
+          </div>
+        </div>
+        <div class="join-reason">
+          <span class="join-icon">→</span>
+          <div>
+            <h4>有利な融資制度</h4>
+            <p>マル経融資で無担保・無保証・低利の資金調達が可能</p>
+          </div>
+        </div>
+        <div class="join-reason">
+          <span class="join-icon">→</span>
+          <div>
+            <h4>税務・記帳サポート</h4>
+            <p>帳簿付けから確定申告まで手厚く支援します</p>
+          </div>
+        </div>
+        <div class="join-reason">
+          <span class="join-icon">→</span>
+          <div>
+            <h4>地域ネットワーク</h4>
+            <p>同じ地域の事業者とつながる交流・イベントの機会</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:36px;">
+        <a href="#contact" class="btn btn-primary">入会について相談する</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">お問い合わせ</p>
+    </div>
+    <div class="contact-box">
+      <div class="contact-info">
+        <p class="contact-phone"></p>
+        <p class="contact-hours">平日 8:30〜17:15</p>
+      </div>
+      <div class="contact-divider">
+        <span>or</span>
+      </div>
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-group">
+            <label>お名前 <span class="required">必須</span></label>
+            <input type="text" placeholder="山田 太郎">
+          </div>
+          <div class="form-group">
+            <label>メールアドレス <span class="required">必須</span></label>
+            <input type="email" placeholder="example@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>電話番号</label>
+            <input type="tel" placeholder="0997-00-0000">
+          </div>
+          <div class="form-group">
+            <label>お問い合わせ内容 <span class="required">必須</span></label>
+            <select>
+              <option value="">選択してください</option>
+              <option>経営相談</option>
+              <option>融資について</option>
+              <option>税務・記帳</option>
+              <option>入会について</option>
+              <option>その他</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>メッセージ</label>
+          <textarea placeholder="お問い合わせ内容をご記入ください"></textarea>
+        </div>
+        <div style="text-align:center;">
+          <button type="submit" class="btn btn-primary btn-wide">送信する</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <p class="footer-logo">松崎町商工会</p>
+        <p class="footer-addr"></p>
+      </div>
+      <nav class="footer-links">
+        <a href="#news">News</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#join">Join</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-banner">
+        <a href="https://www.shokokai.or.jp/" target="_blank" rel="noopener">全国商工会連合会</a>
+        <a href="http://www.ssr.or.jp/" target="_blank" rel="noopener">静岡県商工会連合会</a>
+        <a href="https://www.chusho.meti.go.jp/" target="_blank" rel="noopener">中小企業庁</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 松崎町商工会</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav').classList.toggle('active');
+  document.getElementById('navOverlay').classList.toggle('active');
+}
+function closeNav() {
+  document.getElementById('nav').classList.remove('active');
+  document.getElementById('navOverlay').classList.remove('active');
+}
+</script>
+
+</body>
+</html>

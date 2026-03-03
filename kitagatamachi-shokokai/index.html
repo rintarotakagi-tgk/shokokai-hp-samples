@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>北方町商工会 | 北方町の事業者を支援します</title>
+  <meta name="description" content="北方町商工会の公式ホームページです。北方町の事業者の皆様の経営支援・融資・共済・各種相談を行っています。">
+  <link rel="stylesheet" href="shared/base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      北方町商工会
+      <small>北方町の事業者を支援します</small>
+    </div>
+    <button class="hamburger" onclick="toggleNav()" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#news" onclick="closeNav()">お知らせ</a></li>
+        <li><a href="#support" onclick="closeNav()">事業案内</a></li>
+        <li><a href="#about" onclick="closeNav()">商工会について</a></li>
+        <li><a href="#membership" onclick="closeNav()">入会のご案内</a></li>
+        <li><a href="#contact" onclick="closeNav()">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('shared/images/hero_a.png')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">北方町の「くらし」と「しごと」を支える</h1>
+    <p class="hero-sub">北方町商工会は地域の事業者の皆様とともに歩みます</p>
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section" id="news">
+  <div class="container">
+    <h2 class="section-title">お知らせ</h2>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">2026.03.01</span>
+        <span class="news-tag tag-info">お知らせ</span>
+        <span class="news-title-text">令和8年度 小規模事業者持続化補助金のご案内</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.02.15</span>
+        <span class="news-tag tag-event">イベント</span>
+        <span class="news-title-text">確定申告無料相談会を開催します</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.02.01</span>
+        <span class="news-tag tag-info">お知らせ</span>
+        <span class="news-title-text">マル経融資（小規模事業者経営改善資金）のご案内</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.01.20</span>
+        <span class="news-tag tag-event">イベント</span>
+        <span class="news-title-text">創業セミナー参加者募集のお知らせ</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.01.10</span>
+        <span class="news-tag tag-info">お知らせ</span>
+        <span class="news-title-text">年末年始の休業日のお知らせ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SUPPORT ===== -->
+<section class="section section-bg" id="support">
+  <div class="container">
+    <h2 class="section-title">事業案内</h2>
+    <div class="support-grid">
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
+        <h3>経営相談</h3>
+        <p>事業計画の策定、売上向上、資金繰りなど、経営に関するあらゆるご相談に経営指導員が対応いたします。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>金融支援</h3>
+        <p>マル経融資をはじめ、日本政策金融公庫や各種制度融資のご案内・申込みのサポートを行います。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M6 8h.01M9 8h6"/><path d="M6 12h.01M9 12h6"/></svg></div>
+        <h3>税務・経理</h3>
+        <p>記帳指導、決算・確定申告の支援、インボイス制度への対応など、税務・経理をお手伝いします。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>労務支援</h3>
+        <p>就業規則の整備、社会保険・労働保険の手続き、人材採用に関するアドバイスを行います。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>共済・保険</h3>
+        <p>全国商工会会員福祉共済、休業補償制度、業務災害保険など、万一に備える各種制度をご用意しています。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <h3>創業支援</h3>
+        <p>創業計画書の作成支援、資金調達、各種届出の手続きなど、創業をトータルにサポートします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section-title">商工会について</h2>
+    <div class="about-grid">
+      <div>
+        <table class="about-table">
+          <tr><th>名称</th><td>北方町商工会</td></tr>
+          <tr><th>所在地</th><td>323-1101　Fax.058-324-7652</td></tr>
+          <tr><th>電話番号</th><td>058-323-1101</td></tr>
+          <tr><th>FAX</th><td></td></tr>
+          <tr><th>受付時間</th><td>平日 8:30〜17:15</td></tr>
+          <tr><th>管轄地域</th><td>北方町</td></tr>
+        </table>
+      </div>
+      <div class="map-wrapper">
+        <iframe src="https://maps.google.com/maps?q=323-1101　Fax.058-324-7652&output=embed" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section class="section section-bg" id="membership">
+  <div class="container">
+    <h2 class="section-title">入会のご案内</h2>
+    <div class="membership-benefits">
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+        <div>
+          <h4>経営の無料相談</h4>
+          <p>経営指導員による個別相談が無料で受けられます</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <div>
+          <h4>有利な融資制度</h4>
+          <p>マル経融資をはじめ、低利の融資制度を利用できます</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+        <div>
+          <h4>記帳・税務サポート</h4>
+          <p>帳簿のつけ方から確定申告まで支援します</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div>
+          <h4>ビジネスマッチング</h4>
+          <p>地域の事業者同士のネットワーク・交流の機会を提供します</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <p style="font-size:0.9rem; color:#666; margin-bottom:20px;">入会金・年会費等の詳細はお気軽にお問い合わせください</p>
+      <a href="#contact" class="btn btn-primary">入会について相談する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <h2 class="section-title">お問い合わせ</h2>
+    <div class="contact-box">
+      <div class="contact-info">
+        <p style="font-size:0.9rem;">お電話でのお問い合わせ</p>
+        <p class="contact-phone">058-323-1101</p>
+        <p class="contact-hours">受付時間：平日 8:30〜17:15</p>
+      </div>
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-group">
+          <label>お名前 <span class="required">必須</span></label>
+          <input type="text" placeholder="山田 太郎">
+        </div>
+        <div class="form-group">
+          <label>メールアドレス <span class="required">必須</span></label>
+          <input type="email" placeholder="example@email.com">
+        </div>
+        <div class="form-group">
+          <label>電話番号</label>
+          <input type="tel" placeholder="0997-00-0000">
+        </div>
+        <div class="form-group">
+          <label>お問い合わせ内容 <span class="required">必須</span></label>
+          <select>
+            <option value="">選択してください</option>
+            <option>経営相談について</option>
+            <option>融資について</option>
+            <option>税務・記帳について</option>
+            <option>入会について</option>
+            <option>イベント・セミナーについて</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>メッセージ</label>
+          <textarea placeholder="お問い合わせ内容をご記入ください"></textarea>
+        </div>
+        <div style="text-align:center;">
+          <button type="submit" class="btn btn-primary">送信する</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <nav class="footer-links">
+      <a href="#news">お知らせ</a>
+      <a href="#support">事業案内</a>
+      <a href="#about">商工会について</a>
+      <a href="#membership">入会のご案内</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="footer-banner">
+      <a href="https://www.shokokai.or.jp/" target="_blank" rel="noopener">全国商工会連合会</a>
+      <span>|</span>
+      <a href="https://www.gifushoko.or.jp/" target="_blank" rel="noopener">岐阜県商工会連合会</a>
+      <span>|</span>
+      <a href="https://www.chusho.meti.go.jp/" target="_blank" rel="noopener">中小企業庁</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 北方町商工会 All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav').classList.toggle('active');
+  document.getElementById('navOverlay').classList.toggle('active');
+}
+function closeNav() {
+  document.getElementById('nav').classList.remove('active');
+  document.getElementById('navOverlay').classList.remove('active');
+}
+</script>
+
+</body>
+</html>

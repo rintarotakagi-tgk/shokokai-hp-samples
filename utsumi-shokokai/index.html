@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内海商工会 | 内海の元気を応援します</title>
+  <meta name="description" content="内海商工会の公式ホームページです。内海の事業者の皆様の経営をサポートしています。お気軽にご相談ください。">
+  <link rel="stylesheet" href="shared/base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      <span class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px;vertical-align:-3px;"><path d="M17 8c.7-1 1-2 1-3 0-3.4-3.6-5-8-5C6.6 0 3 1.6 3 5c0 1 .3 2 1 3"/><path d="M6.5 8a7.5 7.5 0 0 0 11 0"/><path d="M12 22V8"/><path d="M8 14c-2-1-3.5-3.5-3-6"/><path d="M16 14c2-1 3.5-3.5 3-6"/></svg></span>
+      内海商工会
+      <small>内海の元気を応援します</small>
+    </div>
+    <button class="hamburger" onclick="toggleNav()" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#news" onclick="closeNav()">お知らせ</a></li>
+        <li><a href="#support" onclick="closeNav()">サポート内容</a></li>
+        <li><a href="#about" onclick="closeNav()">商工会のご案内</a></li>
+        <li><a href="#events" onclick="closeNav()">イベント</a></li>
+        <li><a href="#membership" onclick="closeNav()">入会のご案内</a></li>
+        <li><a href="#contact" onclick="closeNav()">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('shared/images/hero_b.png')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">内海とともに<br>あなたの「やりたい」を応援します</h1>
+    <p class="hero-sub">経営のこと、お金のこと、何でもお気軽にご相談ください</p>
+    <a href="#contact" class="btn btn-hero">相談してみる</a>
+  </div>
+</section>
+
+<!-- ===== MESSAGE ===== -->
+<section class="section message-section">
+  <div class="container">
+    <div class="message-box">
+      <p class="message-lead">「ひとりで悩んでいませんか？」</p>
+      <p>内海商工会は、内海で商売をされている皆様の身近な相談窓口です。<br>
+      売上のこと、資金繰りのこと、届出のこと——<br>
+      どんな小さなことでも、まずはお気軽にお声がけください。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section section-bg" id="news">
+  <div class="container">
+    <h2 class="section-title">お知らせ</h2>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">2026.03.01</span>
+        <span class="news-tag tag-info">お知らせ</span>
+        <span class="news-title-text">令和8年度 小規模事業者持続化補助金のご案内</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.02.15</span>
+        <span class="news-tag tag-event">イベント</span>
+        <span class="news-title-text">確定申告無料相談会を開催します</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.02.01</span>
+        <span class="news-tag tag-subsidy">補助金</span>
+        <span class="news-title-text">マル経融資（小規模事業者経営改善資金）のご案内</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.01.20</span>
+        <span class="news-tag tag-event">イベント</span>
+        <span class="news-title-text">地域特産品フェアを開催します</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2026.01.10</span>
+        <span class="news-tag tag-info">お知らせ</span>
+        <span class="news-title-text">年末年始の休業日のお知らせ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SUPPORT ===== -->
+<section class="section" id="support">
+  <div class="container">
+    <h2 class="section-title">こんなことをお手伝いします</h2>
+    <div class="support-grid">
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>なんでも経営相談</h3>
+        <p>「お客さんが減った」「何から始めればいいかわからない」——どんな悩みでもOK。経営指導員が一緒に考えます。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>資金のご相談</h3>
+        <p>運転資金や設備投資に。無担保・無保証のマル経融資をはじめ、有利な融資制度をご案内します。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h3>記帳・確定申告</h3>
+        <p>帳簿のつけ方がわからない方も安心。記帳のやり方から確定申告の書類作成まで、丁寧にサポートします。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <h3>セミナー・講習会</h3>
+        <p>経営力アップの勉強会や創業セミナーなど、すぐに役立つ学びの場を定期的に開催しています。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>共済・保険</h3>
+        <p>もしものときも安心。お手頃な掛金で大きな保障の福祉共済制度をご用意しています。</p>
+      </div>
+      <div class="support-card">
+        <div class="support-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
+        <h3>創業したい方へ</h3>
+        <p>「自分のお店を持ちたい」——そんな夢を形にするお手伝い。計画づくりから開業届まで一緒に進めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EVENTS ===== -->
+<section class="section section-bg" id="events">
+  <div class="container">
+    <h2 class="section-title">イベント・地域情報</h2>
+    <div class="event-grid">
+      <div class="event-card">
+        <div class="event-date-badge">
+          <span class="event-month">3月</span>
+          <span class="event-day">15</span>
+        </div>
+        <div class="event-info">
+          <h3>確定申告無料相談会</h3>
+          <p>確定申告でお困りの方、お気軽にお越しください。予約不要です。</p>
+          <span class="event-place"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;vertical-align:-2px;margin-right:2px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>内海商工会 会議室</span>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-date-badge">
+          <span class="event-month">4月</span>
+          <span class="event-day">20</span>
+        </div>
+        <div class="event-info">
+          <h3>創業セミナー（全3回）</h3>
+          <p>創業をお考えの方向け。事業計画の立て方から資金調達まで学べます。</p>
+          <span class="event-place"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;vertical-align:-2px;margin-right:2px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>内海商工会 会議室</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section-title">商工会のご案内</h2>
+    <div class="about-grid">
+      <div>
+        <table class="about-table">
+          <tr><th>名称</th><td>内海商工会</td></tr>
+          <tr><th>所在地</th><td></td></tr>
+          <tr><th>電話番号</th><td></td></tr>
+          <tr><th>FAX</th><td></td></tr>
+          <tr><th>受付時間</th><td>平日 8:30〜17:15</td></tr>
+          <tr><th>管轄地域</th><td>内海</td></tr>
+        </table>
+      </div>
+      <div class="map-wrapper">
+        <iframe src="https://maps.google.com/maps?q=&output=embed" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section class="section section-bg" id="membership">
+  <div class="container">
+    <h2 class="section-title">入会のご案内</h2>
+    <div class="membership-benefits">
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div>
+          <h4>相談無料</h4>
+          <p>何度でも、どんな相談でも無料。お気軽にどうぞ</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <div>
+          <h4>有利な融資</h4>
+          <p>無担保・無保証の低金利融資を利用できます</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+        <div>
+          <h4>税務・経理サポート</h4>
+          <p>記帳から申告まで、手厚くお手伝い</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div>
+          <h4>地域のつながり</h4>
+          <p>同じ地域の事業者仲間と出会えます</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <p style="font-size:0.9rem; color:#666; margin-bottom:8px;">まずはお話だけでもお気軽に</p>
+      <a href="#contact" class="btn btn-primary">入会について聞いてみる</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <h2 class="section-title">お問い合わせ</h2>
+    <div class="contact-box">
+      <div class="contact-info">
+        <p style="font-size:0.95rem;">まずはお電話ください</p>
+        <p class="contact-phone"></p>
+        <p class="contact-hours">受付時間：平日 8:30〜17:15</p>
+      </div>
+      <p style="text-align:center; margin-bottom:24px; font-size:0.85rem; color:#888;">— または、下記フォームからどうぞ —</p>
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-group">
+          <label>お名前 <span class="required">必須</span></label>
+          <input type="text" placeholder="山田 太郎">
+        </div>
+        <div class="form-group">
+          <label>メールアドレス <span class="required">必須</span></label>
+          <input type="email" placeholder="example@email.com">
+        </div>
+        <div class="form-group">
+          <label>電話番号</label>
+          <input type="tel" placeholder="0997-00-0000">
+        </div>
+        <div class="form-group">
+          <label>ご相談内容 <span class="required">必須</span></label>
+          <select>
+            <option value="">選択してください</option>
+            <option>経営について相談したい</option>
+            <option>融資について知りたい</option>
+            <option>税務・確定申告について</option>
+            <option>入会したい・話を聞きたい</option>
+            <option>イベントについて</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>メッセージ</label>
+          <textarea placeholder="お気軽にご記入ください"></textarea>
+        </div>
+        <div style="text-align:center;">
+          <button type="submit" class="btn btn-primary">送信する</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <nav class="footer-links">
+      <a href="#news">お知らせ</a>
+      <a href="#support">サポート内容</a>
+      <a href="#about">商工会のご案内</a>
+      <a href="#events">イベント</a>
+      <a href="#membership">入会のご案内</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="footer-banner">
+      <a href="https://www.shokokai.or.jp/" target="_blank" rel="noopener">全国商工会連合会</a>
+      <span>|</span>
+      <a href="https://www.shokokai.or.jp/" target="_blank" rel="noopener">愛知県商工会連合会</a>
+      <span>|</span>
+      <a href="https://www.chusho.meti.go.jp/" target="_blank" rel="noopener">中小企業庁</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 内海商工会 All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav').classList.toggle('active');
+  document.getElementById('navOverlay').classList.toggle('active');
+}
+function closeNav() {
+  document.getElementById('nav').classList.remove('active');
+  document.getElementById('navOverlay').classList.remove('active');
+}
+</script>
+
+</body>
+</html>

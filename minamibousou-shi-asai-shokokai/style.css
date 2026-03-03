@@ -1,0 +1,129 @@
+/* ===== TEMPLATE A: 信頼・堅実型（紺×白） ===== */
+
+:root {
+  --primary: #1a3a5c;
+  --primary-light: #2a5a8c;
+  --primary-dark: #0f2640;
+  --accent: #c9a84c;
+  --bg-light: #f5f7fa;
+  --text: #2c3e50;
+  --text-light: #5a6c7e;
+}
+
+body {
+  color: var(--text);
+}
+
+/* HEADER */
+.header {
+  border-bottom: 3px solid var(--primary);
+}
+
+.header-logo {
+  color: var(--primary);
+}
+
+.nav-list a::after {
+  background: var(--primary);
+}
+
+/* HERO */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(26,58,92,0.82), rgba(15,38,64,0.7));
+}
+
+.hero-title {
+  letter-spacing: 0.05em;
+}
+
+/* SECTION */
+.section-bg {
+  background: var(--bg-light);
+}
+
+.section-title {
+  color: var(--primary);
+}
+
+.section-title::after {
+  background: var(--accent);
+}
+
+/* NEWS */
+.news-tag {
+  color: #fff;
+  font-weight: 600;
+}
+
+.tag-info {
+  background: var(--primary);
+}
+
+.tag-event {
+  background: var(--accent);
+  color: var(--primary-dark);
+}
+
+/* SUPPORT */
+.support-card {
+  background: #fff;
+  border: 1px solid #e8ecf0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.support-card:hover {
+  box-shadow: 0 8px 24px rgba(26,58,92,0.1);
+}
+
+.support-card-icon svg {
+  color: var(--primary);
+}
+
+.support-card h3 {
+  color: var(--primary);
+}
+
+/* ABOUT */
+.about-table th {
+  color: var(--primary);
+  background: var(--bg-light);
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+}
+
+/* CONTACT */
+.contact-phone {
+  color: var(--primary);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: var(--primary);
+}
+
+/* FOOTER */
+.footer {
+  background: var(--primary-dark);
+  color: #c8d6e5;
+}
+
+.footer a {
+  color: #c8d6e5;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  color: #7f8fa6;
+}
